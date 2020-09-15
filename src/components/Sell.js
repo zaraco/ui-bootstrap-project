@@ -14,35 +14,28 @@ class Sell extends React.Component {
             <>
                 <div className="sell">
                     <Row>
-                        <Col md={{offset: 1, span: 4}}>
+                        <Col md={{offset: 0, span: 3}}>
                             <h1>
                                 Building exactly the eCommerce website you want.
                             </h1>
+                            <br/>
 
-                        </Col>
-
-                        <Col md={{offset: 2, span: 5}}>
-
-                            <img className="img-sell" src='/images/featured-image.png' alt=""/>
-
-                        </Col>
-                    </Row>
-
-                    <Row>
-                        <Col md={12}>
                             <p>
                                 WOO eCommerce is a customizable, open source eCommerce platform built on wordPress.
                             </p>
-                        </Col>
-                    </Row>
-                    <Row>
-                        <Col md={12}>
+                            <br/>
 
                             <Button>
                                 Start a New Store
                             </Button>
+
                         </Col>
 
+                        <Col md={{offset: 3, span: 6}}>
+
+                            <img className="img-sell" src='/images/featured-image.png' alt=""/>
+
+                        </Col>
                     </Row>
                 </div>
             </>

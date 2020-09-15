@@ -4,9 +4,9 @@ h1{
 
 
 .sell h1 {
-    position: absolute;
     width: 613px;
     height: 315px;
+    margin-left: 47px;
     margin-top: 123px;
     font-style: normal;
     font-weight: bold;
@@ -19,8 +19,26 @@ h1{
 
 
 .img-sell {
-    width: 770px;
+    width: 700px;
     margin-top: 71px;
 
 }
 
+.sell p {
+    margin-left: 47px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #94A2B3;
+
+}
+
+.sell button {
+    width: 201px;
+    height: 54px;
+    margin-left: 47px;
+    background: #7854F7;
+    border-radius: 45px;
+    border: none;
+}

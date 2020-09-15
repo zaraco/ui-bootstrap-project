@@ -17,7 +17,7 @@ class App extends React.Component {
         return (
             <>
                 <Row>
-                    <Col md={10}>
+                    <Col md={12}>
                         <Navbar className='navbar' expand="md">
                             <Navbar.Brand href="/#">
                                 <img className="navbar-logo"
@@ -32,8 +32,8 @@ class App extends React.Component {
                                     <Nav.Link href="#develop">Develop</Nav.Link>
                                     <Nav.Link href="#resources">Resources</Nav.Link>
                                 </Nav>
-                                <Form inline className="navbar-right">
-                                    <Nav.Link href="#login">Login</Nav.Link>
+                                <Form inline >
+                                    <Nav.Link className="navbar-right" href="#login">Login</Nav.Link>
                                     <Button>Get Started</Button>
                                 </Form>
                             </Navbar.Collapse>
