@@ -25,7 +25,7 @@ class App extends React.Component {
                             </Navbar.Brand>
                             <Navbar.Toggle aria-controls="basic-navbar-nav"/>
                             <Navbar.Collapse id="basic-navbar-nav">
-                                <Nav className="mr-auto">
+                                <Nav className="mr-auto" style={{marginLeft: '107px'}}>
                                     <Nav.Link href="#">sell</Nav.Link>
                                     <Nav.Link href="#marketplace">Marketplace</Nav.Link>
                                     <Nav.Link href="#community">Community</Nav.Link>
@@ -33,7 +33,7 @@ class App extends React.Component {
                                     <Nav.Link href="#resources">Resources</Nav.Link>
                                 </Nav>
                                 <Form inline >
-                                    <Nav.Link className="navbar-right" href="#login">Login</Nav.Link>
+                                    <Nav.Link style={{color: 'black'}} href="#login">Login</Nav.Link>
                                     <Button>Get Started</Button>
                                 </Form>
                             </Navbar.Collapse>
