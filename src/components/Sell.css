@@ -3,7 +3,7 @@ h1{
 }
 
 
-.txt-sell {
+.sell h1 {
     position: absolute;
     width: 613px;
     height: 315px;
@@ -14,5 +14,13 @@ h1{
     line-height: 71px;
     color: #272D4E;
 
+}
+
+
+
+.img-sell {
+    width: 770px;
+    margin-top: 71px;
 
 }
+
