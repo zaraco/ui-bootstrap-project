@@ -1,0 +1,18 @@
+h1{
+    line-height: 0;
+}
+
+
+.txt-sell {
+    position: absolute;
+    width: 613px;
+    height: 315px;
+    margin-top: 123px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 71px;
+    color: #272D4E;
+
+
+}
